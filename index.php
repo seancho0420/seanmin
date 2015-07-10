@@ -61,9 +61,9 @@ use Core\Router;
 use Helpers\Hooks;
 
 //define routes
-Router::any('', 'Controllers\ledger@index');
-Router::any('user', 'Controllers\ledger@user');
-Router::any('household_ledger', 'Controllers\ledger@household_ledger');
+Router::any('', 'Controllers\seanmin@index');
+Router::any('user', 'Controllers\seanmin@user');
+Router::any('household_ledger', 'Controllers\seanmin@household_ledger');
 
 //module routes
 $hooks = Hooks::get();

@@ -13,7 +13,7 @@ use Helpers\Url;
  * @date June 27, 2014
  * @date updated May 18 2015
  */
-class ledger extends Controller
+class seanmin extends Controller
 {
 
     /**

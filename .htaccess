@@ -3,7 +3,7 @@ Options -Indexes
 <IfModule mod_rewrite.c>
 
 	RewriteEngine On
-	RewriteBase /projects/ledger/
+	RewriteBase /projects/seanmin/
 
 	# Force to exclude the trailing slash
 	RewriteCond %{REQUEST_FILENAME} !-d
