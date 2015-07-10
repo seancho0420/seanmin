@@ -1,2 +1,3 @@
+.htaccess
 app/Core/Config.php
 .DS_Store
