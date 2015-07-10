@@ -110,6 +110,8 @@ $(document).ready(function() {
     $('#out_link').on('click', function() {
         $('#iamout').submit();
     });
+
+    $('head title').text('SEANMIN::' + $('nav ul.nav li.active .nav-label').text());
 });
 
 
