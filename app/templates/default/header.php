@@ -24,7 +24,7 @@ $hooks = Hooks::get();
 	<?php
 	Assets::css(array(
 		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css',
-		'//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css',
+		'//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
 		Url::templatePath() . 'css/plugins/fullcalendar/fullcalendar.css',
 		Url::templatePath() . 'css/plugins/fullcalendar/fullcalendar.print.css',
 		Url::templatePath() . 'css/animate.css',

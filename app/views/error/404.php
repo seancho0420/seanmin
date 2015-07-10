@@ -1,5 +1,5 @@
-<div class="container content">
-	<div class="row">
+<div class="container content gray-bg">
+	<div class="row m-t-sm m-b-xl">
 		<div class="col-md-12">
 
 			<h1>404</h1>

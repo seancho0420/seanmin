@@ -152,8 +152,8 @@ h5 {
   font-size: 12px;
 }
 .nav-header {
-  padding: 33px 25px;
-  /*background: url("patterns/header-profile.png") no-repeat;*/
+  padding: 10px 25px 33px;
+  background: url("patterns/header-profile.png") no-repeat;
 }
 .pace-done .nav-header {
   transition: all 0.5s;
@@ -3513,7 +3513,7 @@ body.skin-3 {
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 220px;
-    min-height: 900px;
+    min-height: 1000px;
   }
   .navbar-static-side {
     z-index: 101;
@@ -3530,7 +3530,7 @@ body.skin-3 {
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 0px;
-    min-height: 800px;
+    min-height: 900px;
   }
   .body-small .navbar-static-side {
     display: none;

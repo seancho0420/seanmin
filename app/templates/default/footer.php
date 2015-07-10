@@ -8,7 +8,6 @@ use Helpers\Hooks;
 $hooks = Hooks::get();
 ?>
 </div>
-</div>
 
 <!-- JS -->
 <?php
