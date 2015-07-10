@@ -1,9 +1,9 @@
 <?php
-namespace Controllers;
+namespace controllers;
 
-use Core\View;
-use Core\Controller;
-use Helpers\Url;
+use core\view;
+use core\controller;
+use helpers\url;
 
 /*
  * Welcome controller
@@ -13,9 +13,9 @@ use Helpers\Url;
  * @date June 27, 2014
  * @date updated May 18 2015
  */
-class seanmin extends Controller
+class seanmin extends controller
 {
-
+    private $_seanmin;
     /**
      * Call the parent construct
      */
@@ -32,13 +32,15 @@ class seanmin extends Controller
 
             Url::redirect('user');
         }
+
+        // $this->_seanmin = new \Models\seanmin();
     }
 
     /**
      * Define Index page title and load template files
      */
     public function index()
-    {   
+    {
         // should be done for all pages except user
         $this->check_cookie();
 
@@ -48,6 +50,7 @@ class seanmin extends Controller
         View::renderTemplate('header', $data);
         View::renderTemplate('nav', $data);
         View::render('welcome/index', $data);
+        View::renderTemplate('main_bottom', $data);
         View::renderTemplate('footer', $data);
     }
 
@@ -97,6 +100,17 @@ class seanmin extends Controller
         View::renderTemplate('header', $data);
         View::renderTemplate('nav', $data);
         View::render('household_ledger/index', $data);
+        View::renderTemplate('main_bottom', $data);
+        View::renderTemplate('footer', $data);
+    }
+
+    public function category() {
+        $this->check_cookie();
+
+        View::renderTemplate('header', $data);
+        View::renderTemplate('nav', $data);
+        View::render('settings/category', $data);
+        View::renderTemplate('main_bottom', $data);
         View::renderTemplate('footer', $data);
     }
 

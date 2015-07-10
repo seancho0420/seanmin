@@ -64,6 +64,7 @@ use Helpers\Hooks;
 Router::any('', 'Controllers\seanmin@index');
 Router::any('user', 'Controllers\seanmin@user');
 Router::any('household_ledger', 'Controllers\seanmin@household_ledger');
+Router::any('settings/category', 'Controllers\seanmin@category');
 
 //module routes
 $hooks = Hooks::get();

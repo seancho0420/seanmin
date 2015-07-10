@@ -1,7 +1,7 @@
 <?php
-namespace Core;
+namespace core;
 
-use Helpers\Session;
+use helpers\session;
 
 /*
  * config - an example for setting up system settings
@@ -13,7 +13,7 @@ use Helpers\Session;
  * @date June 27, 2014
  * @date updated May 18 2015
  */
-class Config
+class config
 {
     public function __construct()
     {
@@ -21,7 +21,7 @@ class Config
         ob_start();
 
         //site address
-        define('DIR', 'http://seanmin.com/');
+        define('DIR', 'http://localhost/private/seanmin/');
 
         //set default controller and method for legacy calls
         define('DEFAULT_CONTROLLER', 'welcome');
@@ -35,11 +35,11 @@ class Config
 
         //database details ONLY NEEDED IF USING A DATABASE
         define('DB_TYPE', 'mysql');
-        define('DB_HOST', 'localhost');
-        define('DB_NAME', 'dbname');
-        define('DB_USER', 'root');
-        define('DB_PASS', 'password');
-        define('PREFIX', 'smvc_');
+        define('DB_HOST', 'seanmincom.ipagemysql.com');
+        define('DB_NAME', 'seanmin');
+        define('DB_USER', 'sean');
+        define('DB_PASS', '*86868686*');
+        define('PREFIX', '');
 
         //set prefix for sessions
         define('SESSION_PREFIX', 'smvc_');

@@ -15,6 +15,6 @@
 
             <button type="submit" class="btn btn-primary block full-width m-b m-t-md">Start</button>
         </form>
-        <p class="m-t"> <small>Inspinia we app framework base on Bootstrap 3 &copy; 2014</small> </p>
+        <p class="m-t"> <small>Main purpose is to record household ledger.</small> </p>
     </div>
 </div>
