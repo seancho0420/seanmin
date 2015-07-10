@@ -1,0 +1,4 @@
+/* Your styles here */
+#calendar .fc-content td {
+	cursor: pointer;
+}
